@@ -1,0 +1,64 @@
+  @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600&display=swap');
+
+.footer {
+  background-color: #f9f9f9;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  direction: rtl;
+  font-family: 'Assistant', sans-serif;
+  font-size: 14px;
+}
+
+.footer-section {
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-section h3 {
+  color: #f3cc00;
+  margin-bottom: 15px;
+  font-size: 26px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a,
+.footer-section ul li .about-button {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover,
+.footer-section ul li .about-button:hover {
+  color: #f3cc00;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.about-button {
+  background-color: transparent;
+  /* border: 1px solid #000; */
+  /* padding: 4px 10px; */
+  /* border-radius: 5px; */
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.about-button:hover {
+  /* background-color: #f3cc00; */
+  color: black;
+  /* border-color: #f3cc00; */
+}
