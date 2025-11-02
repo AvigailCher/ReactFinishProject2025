@@ -1,37 +1,37 @@
-# חנות אונליין Noizz
+# Online Store – Noizz
 
-מערכת חנות אינטרנטית מודרנית לילדים ובני נוער, עם ממשק משתמש נוח, עגלת קניות, תשלום, ומערכת ניהול מוצרים מבוססת React ו-Redux.
+A modern online shopping system for kids and teens, featuring an intuitive user interface, shopping cart, checkout, and a React + Redux–based product management system.
 
-## תכונות עיקריות
-- דף בית עם קרוסלת תמונות ומבצעים
-- קטגוריות: בנים, בנות, נעליים, אקססוריז, SALE, קולקציה חדשה
-- עגלת קניות חכמה עם בחירת מידה, עדכון כמויות והסרה
-- דף תשלום עם טופס פרטי לקוח, בחירת אמצעי תשלום, וסיכום הזמנה
-- דף תודה לאחר רכישה
-- עיצוב רספונסיבי עם Bootstrap
-- תמיכה במצב כהה/בהיר
-- ניהול מצב גלובלי עם Redux
+## Key Features
+- Homepage with image carousel and promotions  
+- Categories: Boys, Girls, Shoes, Accessories, SALE, New Collection  
+- Smart shopping cart with size selection, quantity update, and item removal  
+- Checkout page with customer details form, payment method selection, and order summary  
+- Thank-you page after purchase  
+- Responsive design using Bootstrap  
+- Light/Dark mode support  
+- Global state management with Redux  
 
-## טכנולוגיות
-- React (כולל React Router)
-- Redux לניהול מצב
-- Bootstrap לעיצוב
-- React-Bootstrap לאלמנטים מתקדמים
+## Technologies
+- React (with React Router)  
+- Redux for state management  
+- Bootstrap for styling  
+- React-Bootstrap for advanced UI components  
 
-## מבנה הפרויקט
-- `src/componnets/` – רכיבי React (דפי מוצר, עגלה, תשלום, ניווט, קרוסלה ועוד)
-- `src/redux/` – ניהול מצב Redux (store, reducers, actions)
-- `src/images/` – תמונות מוצרים וגרפיקה
-- `src/css/` – קבצי עיצוב
+## Project Structure
+- `src/components/` – React components (product pages, cart, checkout, navigation, carousel, etc.)  
+- `src/redux/` – Redux state management (store, reducers, actions)  
+- `src/images/` – Product images and graphics  
+- `src/css/` – Styling files  
 
-## הפעלה מקומית
-1. התקנת חבילות:
+## Local Setup
+1. Install dependencies:
    ```bash
    cd project
    npm install
    ```
-2. הרצת פיתוח:
+
+2. Run development server:
    ```bash
    npm start
    ```
-
